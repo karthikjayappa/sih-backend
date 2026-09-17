@@ -12,5 +12,5 @@ available: `source`, `record_id`, `survey_number`, `owner_name`, `area_sqm`,
 and `land_use`. Feature geometry is ingested directly; it is never replaced
 with a centroid-derived square.
 
-The current checkout does not include those source files. Add them only when
-their licensing and competition rules permit repository distribution.
+The supplied source files are included here. Keep them in the repository only
+when their licensing and competition rules permit distribution.

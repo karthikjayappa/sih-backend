@@ -42,7 +42,7 @@ Place the licensed files below in `db/seed/source-data/` when available:
 
 Each file should be a GeoJSON `FeatureCollection` containing polygon or multipolygon features. The profiles expect properties such as `source`, `record_id`, `survey_number`, `owner_name`, `area_sqm`, and `land_use`. Feature geometry is sent directly to PostGIS, including `MultiPolygon` geometry; the service only uses its centroid-square fallback for genuinely point-only uploads.
 
-The current repository checkout does not include the 169-record source files. Add them only when their licensing and competition rules allow repository distribution.
+These supplied 169-record source files are included in this checkout. Keep them in the repository only where their licensing and competition rules allow distribution.
 
 ## API examples
 
